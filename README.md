@@ -2,4 +2,4 @@
 
 A basic website to practice Frontend fundamentals.
 
-This project uses HTML, CSS and Bootsrap framework.
+This project uses HTML, CSS and Bootstrap framework.
