@@ -1,0 +1,165 @@
+/*Selector priority: inline css > id > class > h1, p, etc */
+body {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    text-align: center;
+}
+
+/*Sections*/
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* .white-section {
+
+} */
+
+
+/*Heirarchial selectors: #title .container-fluid  :Parent, Child, with space, read from right to left*/
+/*Combined selector: selector1selector2 or selector1#selector2 :Need to occur in same element/heirarchy*/
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1, h2, h3, h4 {
+    font-family:'Montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.big-heading {
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family:'Montserrat';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: light;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 20%;
+    transform: rotate(25deg);/*-ve angle for anticlockwise rotation*/
+    position: absolute;
+    right: 15%;
+}
+
+#features {
+    padding: 5% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+/* .feature {
+    
+} */
+
+.icon {
+    color: #ef8172;
+    /* padding-bottom: 2%; */
+    margin-bottom: 1rem;
+}
+
+.feature-head {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.feature-text {
+    color: #8f8f8f;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+.caraousel-item {
+    padding: 5% 15%;
+}
+
+.testimonial-text{
+    padding: 5% 15%;
+    font-size: 2.5rem;
+}
+
+#pricing {
+    padding: 35px 100px 60px;
+}
+
+.pricing-column {
+    padding: 2% 3%;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        text-align: center;
+        right: 0;
+        width: 60%;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+}
+
+.cta-container {
+    padding-bottom: 0%;
+}
+
+#footer {
+    padding: 2% 3% 1%;
+}
+
+.extra-links-icons {
+    margin: auto 0.5% auto;
+}
